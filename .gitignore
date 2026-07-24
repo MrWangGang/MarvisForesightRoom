@@ -5,6 +5,3 @@ venv/
 .env
 .DS_Store
 AGENTS.md
-
-# Local secrets and runtime data
-data/
