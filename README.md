@@ -2,10 +2,10 @@
   <img src="docs/diagrams/hero.svg" alt="Marvis Foresight Room banner" width="100%" />
 </p>
 
-<h1 align="center">Marvis Foresight Room · 群体 AI 推演室</h1>
+<h1 align="center">Marvis Foresight Room · 推演未来</h1>
 
 <p align="center">
-  <strong>不是向一个模型索要答案，而是让一整个房间把答案争出来。</strong>
+  <strong>打破单模型生成局限，采用多智能体群体辩论机制，通过观点对峙、逻辑互证输出可靠回答。</strong>
 </p>
 
 <p align="center">
