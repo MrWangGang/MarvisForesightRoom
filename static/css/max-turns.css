@@ -1,0 +1,46 @@
+.max-turns-field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.max-turns-field span {
+  color: #26343f;
+  font-weight: 700;
+  font-size: clamp(8px, .72cqw, 13px);
+}
+
+.max-turns-field b {
+  color: #9aa8b2;
+  font-size: .82em;
+}
+
+.max-turns-control {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 7px;
+  align-items: center;
+}
+
+.max-turns-control select {
+  width: 100%;
+  border: 1px solid rgba(221, 230, 238, .95);
+  border-radius: clamp(14px, 1.25cqw, 20px);
+  padding: clamp(9px, .82cqw, 14px);
+  background: rgba(255, 255, 255, .82);
+  color: #33434f;
+  font: inherit;
+  font-size: clamp(8px, .72cqw, 13px);
+  outline: none;
+}
+
+.max-turns-control em {
+  padding: 6px 9px;
+  border-radius: 999px;
+  background: #edf8ff;
+  color: #1689cb;
+  font-style: normal;
+  font-weight: 800;
+  font-size: clamp(6px, .56cqw, 10px);
+  white-space: nowrap;
+}

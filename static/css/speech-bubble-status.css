@@ -1,0 +1,45 @@
+.speech-image {
+  min-width: 126px;
+}
+
+.speech-image > div {
+  position: relative;
+  gap: 3px;
+}
+
+.speech-image > div > .md-text.compact {
+  display: block !important;
+  width: 100%;
+  height: 1.35em;
+  min-height: 1.35em;
+  max-height: 1.35em;
+  margin: 0;
+  padding: 0;
+  color: transparent !important;
+  line-height: 1.35 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  -webkit-line-clamp: unset !important;
+  -webkit-box-orient: initial !important;
+}
+
+.speech-image > div > .md-text.compact * {
+  color: transparent !important;
+  visibility: hidden !important;
+}
+
+.speech-image > div::after {
+  content: "正在发言 ...";
+  display: block;
+  width: 100%;
+  height: 1.35em;
+  margin-top: -1.35em;
+  color: #657480;
+  font-size: max(6px, 0.52cqw);
+  line-height: 1.35;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}

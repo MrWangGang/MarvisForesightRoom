@@ -1,0 +1,22 @@
+.history-task > div {
+  grid-template-columns: 1fr 0.72fr 0.72fr !important;
+}
+
+.history-task > div > button:first-child {
+  display: none !important;
+}
+
+.task-delete-button {
+  padding: 5px 4px;
+  border: 0;
+  border-radius: 8px;
+  background: #ffe9ec;
+  color: #d93246;
+  font-size: inherit;
+  font-weight: 800;
+}
+
+.task-delete-button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}

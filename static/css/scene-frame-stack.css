@@ -1,0 +1,22 @@
+.full-scene-stack {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: #f4f2ef;
+  contain: paint;
+  transform: translateZ(0);
+}
+
+.full-scene-stack .full-scene-frame {
+  opacity: 0;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: opacity;
+}
+
+.full-scene-stack .full-scene-frame.is-visible {
+  opacity: 1;
+  z-index: 1;
+}
