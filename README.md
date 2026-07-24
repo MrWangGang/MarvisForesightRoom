@@ -56,7 +56,7 @@ Marvis Foresight Room 是一个实验性的多人物讨论空间。你给它一�
 
 真实决策很少是线性的。它往往来自压力、分歧、犹豫、重构和妥协。单个回答当然有用，但它经常跳过让想法变强的社会过程。
 
-Marvis Foresight Room 探索的是另一种 AI 界面：
+Marvis Foresight Room 探索的是另一种 AI 解决方案：
 
 > **不是一个助手，而是一整个房间的视角。**
 
